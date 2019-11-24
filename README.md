@@ -36,7 +36,7 @@ Get All the Customers within Radius Range provided at the time of function call.
 ```js
 // Working code sample
 require('distance-finder-by-geo')
-  .getAllCustomers({ lat: 53.339428, lng: -6.257664 }, __dirname + '/Customers.txt', 100, 'user_id')
+  .getAllCustomersWithinRange({ lat: 53.339428, lng: -6.257664 }, __dirname + '/Customers.txt', 100, 'user_id')
   .then(result => {
     console.log(result);
   }).catch(ex => {

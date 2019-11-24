@@ -1,6 +1,6 @@
 {
     "name": "distance-finder-by-geo",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "Find customers within some radius using latitude and longitude.",
     "main": "src/index.js",
     "type": "module",
