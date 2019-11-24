@@ -16,6 +16,9 @@ npm install distance-finder-by-geo
 require('distance-finder-by-geo')
 ```
 
+#### Download Sample Customers.txt file to test it
+
+<a href="https://raw.githubusercontent.com/jimcute/distance-finder-by-geo/master/Customers.txt">Click to Download the file</a>
 
 ## Functions
 

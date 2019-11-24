@@ -1,12 +1,16 @@
 {
     "name": "distance-finder-by-geo",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "Find customers within some radius using latitude and longitude.",
     "main": "src/index.js",
     "type": "module",
     "files": [
         "src"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jimcute/distance-finder-by-geo.git"
+    },
     "author": "Jameer Khan",
     "license": "MIT",
     "scripts": {},
