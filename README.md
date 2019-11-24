@@ -21,13 +21,13 @@ require('distance-finder-by-geo')
 
 Get All the Customers within Radius Range provided at the time of function call.
 
+### `getAllCustomersWithinRange(point, jsonFilePath, radius, orderBy = '')`
+
 #### Paramaters:
 - point: The base Geopoint from where we need to find distance of other Coordinates
 - jsonFilePath: Customers.txt file path which has the Coordinates data
 - radius: The distance radius
 - orderBy: (Optional) Pass the field name exist in Customers.txt file by which you want the Ascending Ordering
-
-### `getAllCustomersWithinRange(point, jsonFilePath, radius, orderBy = '')`
 
 
 ```js
